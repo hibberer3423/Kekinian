@@ -710,6 +710,7 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   padding-top: 6px;
 }
 .inspiration .container span {
+  width: 100%;
   font-family: Montserrat-Regular;
   font-size: 27px;
   margin-top: 10px;
@@ -818,19 +819,19 @@ header .navbar .container .logOrRegist .btn-login:hover a:hover {
   margin-top: 20px;
 }
 
-.desc .text-content  p.f-one,
-.desc .text-content p.f-two,
-.desc .text-content p.f-three,
-.desc .text-content  p.f-four {
+.desc .text-content .f-one  p,
+.desc .text-content .f-two p,
+.desc .text-content .f-three p,
+.desc .text-content .f-four p {
   font-family: OpenSans-Regular;
   font-size: 17px;
   color: #111111;
 }
 
-.desc .text-content  p.f-one:first-letter,
-.desc .text-content  p.f-two:first-letter,
-.desc .text-content  p.f-three:first-letter,
-.desc .text-content  p.f-four:first-letter {
+.desc .text-content .f-one  p:first-letter,
+.desc .text-content .f-two  p:first-letter,
+.desc .text-content .f-three  p:first-letter,
+.desc .text-content .f-four  p:first-letter {
   margin-left: 20px;
 }
 

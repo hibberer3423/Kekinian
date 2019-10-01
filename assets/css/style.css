@@ -315,7 +315,7 @@ header .social-media .right .twiter img {
 header .social-media .right .ig {
   width: 20px;
   height: 20px;
-  margin-right: 20px;
+  margin-right: 0;
   cursor: pointer;
 }
 
@@ -639,6 +639,7 @@ header .navbar .container .logOrRegist .btn-login {
 }
 
 header .navbar .container .logOrRegist .btn-login a {
+  margin-top: -4.5px;
   font-size: 12px;
   color: #FDD34C;
   -webkit-justify-content: center;
@@ -2404,7 +2405,7 @@ section {
 
   header .social-media .right {
     float: right;
-    width: 140px !important;
+    width: unset !important;
     padding-top: 8px !important;
     padding-bottom: 8px !important;
     display: -webkit-flex;
@@ -2441,7 +2442,7 @@ section {
   header .social-media .right .ig {
     width: 20px ;
     height: 20px;
-    margin-right: 10px !important;
+    margin-right: 0 !important;
     margin-left: 0;
     cursor: pointer;
   }
